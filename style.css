@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #404647;
+}
+
+.inc {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    border-radius: 70px;
+    margin: 3px;
+    padding: 40px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.inc img {
+    width: 250px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 3px;
+    border: 1px solid white;
+    transition: all 1s;
+    box-shadow: 2px 2px 2px lightblue;
+}
+
+.inc img:hover {
+    cursor: pointer;
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+    transition: 1.5s;
+}
+
+.name {
+    width: 1050px;
+    height: 500px;
+    position: relative;
+    float: right;
+    margin-bottom: 900px;
+    margin-top: -265px;
+    text-align: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    border-radius: 100px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.name img {
+    width: 100px;
+    margin: 30px 70px 20px 10px;
+    align-items: center;
+}
+
+.image1 {
+    height: 65px;
+    transition: all 0.5s;
+}
+
+.image1:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.image2 {
+    transition: all 0.5s;
+}
+
+.image2:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.image3 {
+    transition: all 0.5s;
+}
+
+.image3:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.name p {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-indent: initial;
+}
+
+.name h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
